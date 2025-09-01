@@ -10,8 +10,6 @@ int main() {
     apple.name = "apple";
     apple.maxQty = 10;
 
-
-
     string userResponseStr;
     int userResponseInt;
 
