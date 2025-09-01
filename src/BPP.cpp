@@ -1,4 +1,4 @@
-#include "Inventory.h"
+#include "BPP.h"
 using namespace std;
 
 Inventory::Inventory(int cap) {
