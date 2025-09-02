@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class Item {
@@ -25,4 +26,5 @@ public:
     bool removeItem(Item item, int qty);
     int getItemQtyByName(string itemName);
     int getItemQtyByID(string itemID);
+    void showInv();
 };

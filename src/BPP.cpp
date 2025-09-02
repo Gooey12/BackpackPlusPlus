@@ -57,3 +57,9 @@ int Inventory::getItemQtyByID(string itemID) {
 
     return 0;
 }
+
+void Inventory::showInv() {
+    for (int i = 0; i < slots.size(); i++) {
+        cout << "[ itemName: " << slots[i].item.name << " / itemID: " << slots[i].item.id << " / itemQty: " << slots[i].qty << " ]" << endl;
+    }
+}
